@@ -11,14 +11,14 @@
 
 - Created Pivot Table from Kickstarter data set, then filtered Pivot Table based on "Parent Category, (Theater)" and "Years" 
 - Created link chart from the pivot table to visualize the relationship between outcomes and launch month
-
+/Users/carissabenchwick/Desktop/OSU Bootcamp Projects/Analysis Projects/CrowdFunding Analysis/Pictures/Outcomes_vs_Goals.png
 ### Analysis of Outcomes Based on Goals
 - Created a new sheet to count outcomes of the Kickstarter dataset after filtering subcategory to "plays" and organized the new sheet by goal range (>=1000 - 50000).
 - Used CountIfs formula to calculate each range by success, failure, or canceled. Forexample=COUNTIFs(Range"<Goal",Range,"Outcome",Range,"Subcategory"). 
 - Then, used the =sum() to find a total count of "Successful, Failed, and Canceled total projects" for each goal range.
 - Next, calculated the percentages of Succees, Failed, and Canceled projects by (=number of "successful or failed or canceled"/total projects). Lastly, changed data to percentage. 
 - Lastly, created a line chart to visualize the outcomes based on goal amount.
-
+/Users/carissabenchwick/Desktop/OSU Bootcamp Projects/Analysis Projects/CrowdFunding Analysis/Pictures/Theater_Outcomes_vs_Launch.png
 ### Challenges and Difficulties Encountered:
 - I had two issues: first, I tried to drag the formulas without locking them in with a $ and recieved a bunch of zeros. Lastly, I had an issue with the final countifs with the canceled column, but realized it wasn't an issue afterall.
 
