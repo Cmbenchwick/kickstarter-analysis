@@ -12,6 +12,7 @@
 - Created Pivot Table from Kickstarter data set, then filtered Pivot Table based on "Parent Category, (Theater)" and "Years" 
 - Created link chart from the pivot table to visualize the relationship between outcomes and launch month
 
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/115197033/198434397-906b2df0-8a7b-47ef-8ae8-8339484cc444.png)
 
 ### Analysis of Outcomes Based on Goals
 - Created a new sheet to count outcomes of the Kickstarter dataset after filtering subcategory to "plays" and organized the new sheet by goal range (>=1000 - 50000).
